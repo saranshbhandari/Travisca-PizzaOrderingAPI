@@ -1,0 +1,118 @@
+[
+  {
+    "itemCategoryName": "Pizza",
+    "BuildYourItemEnabled":true,
+    "SizeAvailable": [
+      { "name": "small", "price": "250" },
+      { "name": "medium", "price": "400" },
+      { "name": "large", "price": "500" }
+    ],
+    "ItemDescription": "",
+    "Customization": [
+      {
+        "name": "Crust",
+        "values": [
+            { "name": "Pan", "price": "0" },
+            { "name": "Thin Crust", "price": "50" },
+            { "name": "Cheese Burst", "price": "50" }],
+        "maxSelection": 1
+      },
+      {
+        "name": "Sauce",
+        "values": [
+            { "name": "marinara", "price": "0" },
+            { "name": "cheese", "price": "50" },
+            { "name": "ranch", "price": "50" }],
+        "maxSelection": 1
+      },
+      {
+        "name": "Topings",
+        "values": [
+          { "name": "chicken", "price": "100" },
+          { "name": "paneer", "price": "70" },
+          { "name": "capcicum", "price": "30" },
+          { "name": "tomatos", "price": "30" },
+          { "name": "onions", "price": "30" },
+          { "name": "mushroom", "price": "50" },
+          { "name": "sun dried tomatos", "price": "50" },
+          { "name": "pineapple", "price": "40" }
+        ]
+
+      },
+      {
+        "name": "Cheese",
+        "values": [
+          { "name": "no Cheese", "price": "0" },
+          { "name": "Cheese", "price": "0" },
+          { "name": "Double Cheese", "price": "200" },
+          { "name": "three cheese", "price": "250" }
+        ]
+        
+      }
+    ]
+  },
+  {
+    "itemCategoryName": "Pasta",
+    "BuildYourItemEnabled":true,
+    "SizeAvailable": [
+      { "name": "one portion", "price": "250" }],
+    
+    "ItemDescription": "",
+    "Customization": [
+      {
+        "name": "Pasta Type",
+        "values": [
+          { "name": "penne", "price": "0" },
+          { "name": "speggati", "price": "0" }],
+        "maxSelection": 1
+      },
+      {
+        "name": "Sauce",
+        "values": [
+            { "name": "marinara", "price": "0" },
+            { "name": "cheese", "price": "50" },
+            { "name": "ranch", "price": "50" },
+            { "name": "pesto", "price": "50" }],
+        "maxSelection": 1
+      },
+      {
+        "name": "Toppings",
+        "values": [
+          { "name": "chicken", "price": "100" },
+          { "name": "paneer", "price": "70" },
+          { "name": "capcicum", "price": "30" },
+          { "name": "tomatos", "price": "30" },
+          { "name": "onions", "price": "30" },
+          { "name": "mushroom", "price": "50" },
+          { "name": "olives", "price": "50" },
+          { "name": "pineapple", "price": "40" }
+        ]
+
+      },
+      {
+        "name": "Cheese",
+        "values": [
+          { "name": "no Cheese", "price": "0" },
+          { "name": "parmesan Cheese", "price": "0" },
+          { "name": "mozerella Cheese", "price": "200" },
+          { "name": "three cheese", "price": "250" }
+        ],
+        "maxSelection": 1
+        
+      }
+    ]
+  },
+  {
+    "itemCategoryName": "Dessert",
+    "BuildYourItemEnabled":false,
+    "ItemDescription": ""
+  },
+  {
+    "itemCategoryName": "Beverages",
+    "BuildYourItemEnabled":false,
+    "ItemDescription": ""
+  }
+
+
+
+]
